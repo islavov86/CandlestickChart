@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1A1C7823AFE2F0001F7843 /* WeeklyPrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A1C7723AFE2F0001F7843 /* WeeklyPrices.swift */; };
+		1F1A1C7A23AFE583001F7843 /* MonthlyPrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A1C7923AFE583001F7843 /* MonthlyPrices.swift */; };
+		1F1A1C7E23B01FD1001F7843 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A1C7D23B01FD1001F7843 /* Extensions.swift */; };
 		1F3CE00023AEABE0004B19A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CDFFF23AEABE0004B19A8 /* AppDelegate.swift */; };
 		1F3CE00223AEABE0004B19A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CE00123AEABE0004B19A8 /* SceneDelegate.swift */; };
-		1F3CE00423AEABE0004B19A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CE00323AEABE0004B19A8 /* ViewController.swift */; };
+		1F3CE00423AEABE0004B19A8 /* ChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CE00323AEABE0004B19A8 /* ChartVC.swift */; };
 		1F3CE00723AEABE0004B19A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3CE00523AEABE0004B19A8 /* Main.storyboard */; };
 		1F3CE00923AEABE1004B19A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3CE00823AEABE1004B19A8 /* Assets.xcassets */; };
 		1F3CE00C23AEABE1004B19A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3CE00A23AEABE1004B19A8 /* LaunchScreen.storyboard */; };
+		1F3CE01523AEB0B9004B19A8 /* PriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CE01423AEB0B9004B19A8 /* PriceService.swift */; };
+		1F3CE01823AEBCB9004B19A8 /* DailyPrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CE01723AEBCB9004B19A8 /* DailyPrices.swift */; };
+		4D31F540E77462EEF904DFD7 /* Pods_CandlestickChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F53517D17B6CC810F5E6B36 /* Pods_CandlestickChart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1A1C7723AFE2F0001F7843 /* WeeklyPrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyPrices.swift; sourceTree = "<group>"; };
+		1F1A1C7923AFE583001F7843 /* MonthlyPrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPrices.swift; sourceTree = "<group>"; };
+		1F1A1C7D23B01FD1001F7843 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1F3CDFFC23AEABE0004B19A8 /* CandlestickChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandlestickChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3CDFFF23AEABE0004B19A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F3CE00123AEABE0004B19A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F3CE00323AEABE0004B19A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F3CE00323AEABE0004B19A8 /* ChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartVC.swift; sourceTree = "<group>"; };
 		1F3CE00623AEABE0004B19A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F3CE00823AEABE1004B19A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F3CE00B23AEABE1004B19A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F3CE00D23AEABE1004B19A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3CE01423AEB0B9004B19A8 /* PriceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceService.swift; sourceTree = "<group>"; };
+		1F3CE01723AEBCB9004B19A8 /* DailyPrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPrices.swift; sourceTree = "<group>"; };
+		5F53517D17B6CC810F5E6B36 /* Pods_CandlestickChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CandlestickChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83412DBC42F9F448534AD527 /* Pods-CandlestickChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandlestickChart.release.xcconfig"; path = "Target Support Files/Pods-CandlestickChart/Pods-CandlestickChart.release.xcconfig"; sourceTree = "<group>"; };
+		B78E6A91027782FDE83F193F /* Pods-CandlestickChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CandlestickChart.debug.xcconfig"; path = "Target Support Files/Pods-CandlestickChart/Pods-CandlestickChart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D31F540E77462EEF904DFD7 /* Pods_CandlestickChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1A1C7B23AFEEE2001F7843 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F3CE00323AEABE0004B19A8 /* ChartVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F1A1C7C23B01FBF001F7843 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1F1A1C7D23B01FD1001F7843 /* Extensions.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		1F3CDFF323AEABE0004B19A8 = {
 			isa = PBXGroup;
 			children = (
 				1F3CDFFE23AEABE0004B19A8 /* CandlestickChart */,
 				1F3CDFFD23AEABE0004B19A8 /* Products */,
+				63560F668C917B128E248B5F /* Pods */,
+				5986EF99CFC8D769FEE2E90E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,53 @@
 		1F3CDFFE23AEABE0004B19A8 /* CandlestickChart */ = {
 			isa = PBXGroup;
 			children = (
+				1F1A1C7C23B01FBF001F7843 /* Util */,
+				1F1A1C7B23AFEEE2001F7843 /* Controllers */,
+				1F3CE01623AEBC81004B19A8 /* Model */,
+				1F3CE01323AEAE18004B19A8 /* Services */,
 				1F3CDFFF23AEABE0004B19A8 /* AppDelegate.swift */,
 				1F3CE00123AEABE0004B19A8 /* SceneDelegate.swift */,
-				1F3CE00323AEABE0004B19A8 /* ViewController.swift */,
 				1F3CE00523AEABE0004B19A8 /* Main.storyboard */,
 				1F3CE00823AEABE1004B19A8 /* Assets.xcassets */,
 				1F3CE00A23AEABE1004B19A8 /* LaunchScreen.storyboard */,
 				1F3CE00D23AEABE1004B19A8 /* Info.plist */,
 			);
 			path = CandlestickChart;
+			sourceTree = "<group>";
+		};
+		1F3CE01323AEAE18004B19A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F3CE01423AEB0B9004B19A8 /* PriceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1F3CE01623AEBC81004B19A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F3CE01723AEBCB9004B19A8 /* DailyPrices.swift */,
+				1F1A1C7723AFE2F0001F7843 /* WeeklyPrices.swift */,
+				1F1A1C7923AFE583001F7843 /* MonthlyPrices.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5986EF99CFC8D769FEE2E90E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F53517D17B6CC810F5E6B36 /* Pods_CandlestickChart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63560F668C917B128E248B5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B78E6A91027782FDE83F193F /* Pods-CandlestickChart.debug.xcconfig */,
+				83412DBC42F9F448534AD527 /* Pods-CandlestickChart.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F3CE01023AEABE1004B19A8 /* Build configuration list for PBXNativeTarget "CandlestickChart" */;
 			buildPhases = (
+				BD60F573995665C42EF9F6E4 /* [CP] Check Pods Manifest.lock */,
 				1F3CDFF823AEABE0004B19A8 /* Sources */,
 				1F3CDFF923AEABE0004B19A8 /* Frameworks */,
 				1F3CDFFA23AEABE0004B19A8 /* Resources */,
+				A9E33849288D9E46ABA55337 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +206,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A9E33849288D9E46ABA55337 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CandlestickChart/Pods-CandlestickChart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CandlestickChart/Pods-CandlestickChart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CandlestickChart/Pods-CandlestickChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD60F573995665C42EF9F6E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CandlestickChart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F3CDFF823AEABE0004B19A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F3CE00423AEABE0004B19A8 /* ViewController.swift in Sources */,
+				1F3CE00423AEABE0004B19A8 /* ChartVC.swift in Sources */,
+				1F1A1C7823AFE2F0001F7843 /* WeeklyPrices.swift in Sources */,
+				1F1A1C7A23AFE583001F7843 /* MonthlyPrices.swift in Sources */,
+				1F1A1C7E23B01FD1001F7843 /* Extensions.swift in Sources */,
+				1F3CE01523AEB0B9004B19A8 /* PriceService.swift in Sources */,
+				1F3CE01823AEBCB9004B19A8 /* DailyPrices.swift in Sources */,
 				1F3CE00023AEABE0004B19A8 /* AppDelegate.swift in Sources */,
 				1F3CE00223AEABE0004B19A8 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,11 +402,13 @@
 		};
 		1F3CE01123AEABE1004B19A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78E6A91027782FDE83F193F /* Pods-CandlestickChart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64HG5K87PK;
 				INFOPLIST_FILE = CandlestickChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +422,13 @@
 		};
 		1F3CE01223AEABE1004B19A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83412DBC42F9F448534AD527 /* Pods-CandlestickChart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64HG5K87PK;
 				INFOPLIST_FILE = CandlestickChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

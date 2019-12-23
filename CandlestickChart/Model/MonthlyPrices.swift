@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import ObjectMapper
+
+struct MonthlyPrices: Mappable {
+    
+    var monthlyPricesArray: [String: PricesListObject] = [String: PricesListObject]()
+    
+    init?(map: Map) {}
+    
+    mutating func mapping(map: Map) {
+        monthlyPricesArray   <- map["Monthly Time Series"]
+    }
+}

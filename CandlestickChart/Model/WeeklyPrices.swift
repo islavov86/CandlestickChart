@@ -11,14 +11,12 @@ import ObjectMapper
 
 struct WeeklyPrices: Mappable {
     
-    var weeklyPrices: [String: PricesListObject] = [String: PricesListObject]()
-    var metaData: MetaData?
+    var weeklyPricesArray: [String: PricesListObject] = [String: PricesListObject]()
     
     init?(map: Map) {}
     
     mutating func mapping(map: Map) {
-        weeklyPrices   <- map["Weekly Time Series"]
-        metaData <- map["Meta Data"]
+        weeklyPricesArray   <- map["Weekly Time Series"]
     }
 }
 struct MetaData: Mappable {

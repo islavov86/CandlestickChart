@@ -11,33 +11,12 @@ import ObjectMapper
 
 struct DailyPrices: Mappable {
     
-    var dailyPrices: [String: PricesListObject] = [String: PricesListObject]()
-    var metaData: DailyMetaData?
+    var dailyPricesArray: [String: PricesListObject] = [String: PricesListObject]()
     
     init?(map: Map) {}
     
     mutating func mapping(map: Map) {
-        dailyPrices   <- map["Time Series (Daily)"]
-        metaData <- map["Meta Data"]
-    }
-}
-
-struct DailyMetaData: Mappable {
-    var information: String?
-    var symbol: String?
-    var lastRefreshed: String?
-    var outputSize: String?
-    var timeZone: String?
-    
-    init?(map: Map) {
-    }
-    
-    mutating func mapping(map: Map) {
-        information <- map["1. Information"]
-        symbol <- map["2. Symbol"]
-        lastRefreshed <- map["3. Last Refreshed"]
-        outputSize <- map["4. Output Size"]
-        timeZone <- map["5. Time Zone"]
+        dailyPricesArray   <- map["Time Series (Daily)"]
     }
 }
 
@@ -68,12 +47,5 @@ struct PricesListObject: Mappable {
                 print("TODO")
             }
         }
-    }
-}
-
-extension Double {
-    func rounded(toPlaces places:Int) -> Double {
-        let divisor = pow(10.0, Double(places))
-        return (self * divisor).rounded() / divisor
     }
 }
